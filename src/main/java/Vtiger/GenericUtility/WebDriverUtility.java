@@ -161,7 +161,8 @@ public class WebDriverUtility {
 			
 			TakesScreenshot ts = (TakesScreenshot)driver;
 			File src  = ts.getScreenshotAs(OutputType.FILE);
-			File dst = new File(".\\ScreenShots\\"+ScreenShotsName+".png");
+		//	File dst = new File(".\\ScreenShots\\"+ScreenShotsName+".png");
+			File dst = new File("/job/WPAM-4smokesuite/ws/ScreenShots/CreateOrgWithInustryTest-11%20Jan%202023%2008-25-55.png");
 			FileUtils.copyFile(src, dst); // from commons io dependency
 			
 			return dst.getAbsolutePath(); // for extent reports

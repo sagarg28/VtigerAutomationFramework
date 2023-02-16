@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Vtiger.Organization.Testscripts.CreateOrgWithInustry_BaseclassTest">
+      <class name="MakeMytrip.MakeMytrip1">
         <methods>
-          <include name="bmConfig"/>
-          <include name="amConfig"/>
-          <include name="asConfig"/>
-          <include name="bsConfig"/>
-          <include name="acConfig"/>
-          <include name="CreateOrgWithInustryTest"/>
-          <include name="bcConfig"/>
+          <include name="bookTikect"/>
         </methods>
-      </class> <!-- Vtiger.Organization.Testscripts.CreateOrgWithInustry_BaseclassTest -->
+      </class> <!-- MakeMytrip.MakeMytrip1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
